@@ -2,7 +2,9 @@ import React from 'react';
 
 const Layaout = ({children}) => {
     return (
-        {children}
+        <div className = "Layaout">
+                {children}
+        </div>
     );
 }
 

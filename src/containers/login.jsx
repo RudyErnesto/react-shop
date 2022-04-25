@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/login.scss';
-const login = () => {
+import '../styles/Login.scss';
+const Login = () => {
     return (
     <div className="login">
         <div className="form-container">
@@ -19,4 +19,4 @@ const login = () => {
     );
 }
 
-export default login;
+export default Login;
