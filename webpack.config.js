@@ -29,7 +29,7 @@ module.exports ={
 				]
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.(scss|css)$/,
 				use: [
 					"style-loader",
 					"css-loader",
@@ -52,6 +52,7 @@ module.exports ={
 			directory: path.join(__dirname, 'public'),
 			},
 		  compress: true,
-		  port: 3005,		
+		  port: 3005,
+		
 	}
 }

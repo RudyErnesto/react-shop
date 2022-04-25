@@ -1,8 +1,11 @@
 import React from 'react';
-import '../styles/global.scss';
+import Layaout from '../containers/Layaout';
+import '../styles/global.css';
 const app = () => {
     return (
-        <h1> Hola mundo bienvenido a la practica de React de rudy escalera mejia</h1>
+        <Layaout>
+            <login /> 
+        </Layaout>
     );
 }
 
