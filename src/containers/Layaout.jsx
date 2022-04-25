@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Layaout = ({children}) => {
+const Layaout = (props) => {
     return (
         <div className = "Layaout">
-                {children}
+                {props.children}
         </div>
     );
 }
