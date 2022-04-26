@@ -1,5 +1,6 @@
 import React from 'react';
 import OderItem from '../components/OderItem';
+import '../styles/MyOrder.scss';
 const MyOrder = () => {
     return (
         <aside className="MyOrder">
