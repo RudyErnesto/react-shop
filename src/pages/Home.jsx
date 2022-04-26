@@ -4,9 +4,10 @@ import ProductList from '../containers/ProductList';
 const Home = () => {
     return (
             <>
-                <h1>probando</h1>
-                    <ProductList />
+               <h1>Home</h1>
             </>
+             
+              
         );
 }
 
