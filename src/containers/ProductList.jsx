@@ -5,8 +5,8 @@ const ProductList = () => {
     return (
         <section className="main-container">
 			<div className="ProductList">
-				<ProductItem />
-			</div>
+				<ProducItem />
+		</div>
 		</section>
     );
 }
