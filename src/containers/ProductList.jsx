@@ -1,6 +1,6 @@
 import React from 'react';
 import ProducItem from '@components/ProducItem';
-import useGetProducts from '../hooks/useGetProducts';
+import useGetProducts from '@hooks/useGetProducts';
 import '@styles/ProductList.scss';
 
 
