@@ -17,7 +17,7 @@ import '@styles/global.css';
 const app = () => {
     const initialState = useInitialState();
     return (
-        <AppContext.Provider value = {[]}>
+        <AppContext.Provider value = { initialState }>
         <BrowserRouter>
             <Layaout>
                 <Routes>
